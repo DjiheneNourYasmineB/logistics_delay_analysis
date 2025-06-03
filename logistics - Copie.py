@@ -165,7 +165,7 @@ if page == "⚙️ Classification":
 
     if model_button == ("🌲 Random Forest"):
         st.info("ℹ️ This Step Might Take some Time!")
-     if model_button == ("🕸️ Neural Networks"):
+    if model_button == ("🕸️ Neural Networks"):
         st.info("ℹ️ This Step Might Take some Time!")
 
 
