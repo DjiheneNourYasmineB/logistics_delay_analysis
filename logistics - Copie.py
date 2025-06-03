@@ -160,10 +160,12 @@ if page == "⚙️ Classification":
     
     st.subheader("Let's start classification!")
 
-    
+    st.warning("ℹ️ This part is still under development - unfinished ")
     model_button = st.selectbox("Choose Model", ["🕸️ Neural Networks", "🌲 Random Forest"])
 
     if model_button == ("🌲 Random Forest"):
+        st.info("ℹ️ This Step Might Take some Time!")
+     if model_button == ("🕸️ Neural Networks"):
         st.info("ℹ️ This Step Might Take some Time!")
 
 
